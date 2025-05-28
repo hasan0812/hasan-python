@@ -2,11 +2,12 @@
 print("Welcome To Codingal")
 name=input("What is your name?")
 print("hello",name)
-if name=="Hasan":
+if name.lower()=="Hasan":
 [print("Welcome Hasan")
 ]
-else:[print("Get Out")]
-if name.upper()=="HASAN":
+else
+[print("Get Out")]
+if name.upper()==("HASAN"):
 [print("Welcome HASAN")]
 else
 [
