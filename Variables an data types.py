@@ -18,11 +18,19 @@
 
 #WAP to input a number and print it is even or odd
 
-h = int(input("Enter any number"))
-num = h % 2
-if(num == 0):
-    print("even number is:",h)
-else:
-    print("odd number is:",h)
-print("program is end")   
+# h = int(input("Enter any number"))
+# num = h % 2
+# if(num == 0):
+#     print("even number is:",h)
+# else:
+#     print("odd number is:",h)
+# print("program is end")   
 
+#WAP to enter any number and print it is multiple of 5
+
+a = int(input("Enter a number which is greater and equal to five: "))
+b = a % 5
+if(b == 0):
+    print("multiple of 5")
+else:
+    print("not multiple of 5")
