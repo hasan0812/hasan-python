@@ -28,9 +28,18 @@
 
 #WAP to enter any number and print it is multiple of 5
 
-a = int(input("Enter a number which is greater and equal to five: "))
-b = a % 5
-if(b == 0):
-    print("multiple of 5")
-else:
-    print("not multiple of 5")
+# a = int(input("Enter a number which is greater and equal to five: "))
+# b = a % 5
+# if(b == 0):
+#     print("multiple of 5")
+# else:
+#     print("not multiple of 5")
+
+#WAP to print string and print length of string
+
+a = "organon school"
+b = len(a)
+print("length of string is: ",b)
+c =  a[0:5]
+print(c)
+
