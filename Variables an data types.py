@@ -38,8 +38,10 @@
 #WAP to print string and print length of string
 
 a = "organon school"
-b = len(a)
-print("length of string is: ",b)
-c =  a[0:5]
-print(c)
+# b = len(a)
+# print("length of string is: ",b)
+# c =  a[0:5]
+# print(c)
+d = a.endswith("ol")
+print(d)
 
