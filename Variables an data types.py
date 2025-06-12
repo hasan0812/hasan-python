@@ -37,11 +37,15 @@
 
 #WAP to print string and print length of string
 
-a = "organon school"
+# a = "organon school"
 # b = len(a)
 # print("length of string is: ",b)
 # c =  a[0:5]
 # print(c)
-d = a.endswith("ol")
-print(d)
+# d = a.endswith("ol")
+# print(d)
+
+a = 6
+b = 2
+print(a >= b)
 
